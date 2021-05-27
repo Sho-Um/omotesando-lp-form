@@ -28,31 +28,6 @@ body {
 }
 
 
-/*矢印の設定*/
-
-/*戻る、次へ矢印の位置*/
-.slick-prev, 
-.slick-next {
-    position: absolute;/*絶対配置にする*/
-    top: 42%;
-    cursor: pointer;/*マウスカーソルを指マークに*/
-    outline: none;/*クリックをしたら出てくる枠線を消す*/
-    border-top: 2px solid #666;/*矢印の色*/
-    border-right: 2px solid #666;/*矢印の色*/
-    height: 15px;
-    width: 15px;
-}
-
-.slick-prev {/*戻る矢印の位置と形状*/
-    left: -1.5%;
-    transform: rotate(-135deg);
-}
-
-.slick-next {/*次へ矢印の位置と形状*/
-    right: -1.5%;
-    transform: rotate(45deg);
-}
-
 /*ドットナビゲーションの設定*/
 
 .slick-dots {
@@ -163,7 +138,7 @@ a:active{
 
 
 .heading {
-    font-size:45px;
+    font-size:25px;
 }
 
 .heading2 {
@@ -176,6 +151,10 @@ a:active{
 }
 
 .heading2-omote {
-    font-size:40px;
+    font-size:50px;
     color:rgb(255, 118, 141);
+}
+
+.heading2-clinic {
+    font-size:20px;
 }
